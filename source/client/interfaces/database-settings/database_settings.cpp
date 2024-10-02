@@ -21,7 +21,7 @@
 #include "ui_database_settings.h"
 
 // Services
-#include <services/database/database.h>
+#include <database.h>
 
 DatabaseSettings::DatabaseSettings(Models::Database &database_settings, QWidget *parent) :
         QDialog(parent),

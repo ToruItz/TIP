@@ -23,7 +23,7 @@
 #include <QDialog>
 
 // Services
-#include <services/settings/settings_manager.h>
+#include <settings_manager.h>
 
 namespace Ui {
     class Options;

@@ -21,8 +21,8 @@
 #include <ui_mainwindow.h>
 
 // Services
-#include <services/image-printer/image_printer.h>
-#include <services/theme-loader/theme_loader.h>
+#include <image_printer.h>
+#include <theme_loader.h>
 
 // Interfaces
 #include <interfaces/password-form/password_form.h>

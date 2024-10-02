@@ -28,8 +28,8 @@
 #include <array>
 
 // Services
-#include <services/database/models/font_settings_model.h>
-#include <services/settings/const_options.h>
+#include <models/font_settings_model.h>
+#include <const_options.h>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class TextPositionSelector; }

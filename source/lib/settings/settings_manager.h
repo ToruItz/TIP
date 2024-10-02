@@ -35,8 +35,8 @@
 #include "ini-parser/inicpp.h"
 
 // Services
-#include <services/database/database.h>
-#include <services/database/models.h>
+#include "database.h"
+#include "models.h"
 
 class SettingsManager {
 public:

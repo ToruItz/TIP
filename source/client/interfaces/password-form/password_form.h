@@ -22,7 +22,7 @@
 #include <QDialog>
 
 // Services
-#include <services/database/models/passwords_model.h>
+#include <models/passwords_model.h>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class PasswordForm; }

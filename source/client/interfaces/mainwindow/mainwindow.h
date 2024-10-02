@@ -26,9 +26,9 @@
 #include <QTableWidget>
 
 // Services
-#include <services/logger/logger.h>
-#include <services/settings/settings_manager.h>
-#include <services/text-painter/text_painter.h>
+#include <logger.h>
+#include <settings_manager.h>
+#include <text_painter.h>
 
 // Interfaces
 #include <interfaces/options/options.h>

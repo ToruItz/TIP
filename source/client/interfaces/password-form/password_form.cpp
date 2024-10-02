@@ -22,6 +22,7 @@
 
 // Qt
 #include <QMessageBox>
+#include <QDebug>
 
 PasswordForm::PasswordForm(const Models::Passwords &passwords, QWidget *parent) :
         passwords_(passwords),
@@ -43,5 +44,6 @@ void PasswordForm::on_password_edit_returnPressed() {
         accept();
         return;
     }
-    QMessageBox::warning(this, "Предупреждение", "Не верно введен пароль");
+    qDebug() << passwords_.GetPasswords();
+    QMessageBox::warning(this, "Предупреждение", tr("Не верно введен пароль: "));
 }

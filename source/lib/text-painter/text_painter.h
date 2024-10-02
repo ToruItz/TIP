@@ -32,7 +32,7 @@
 #include <memory>
 
 // Services
-#include <services/database/models/font_settings_model.h>
+#include "models/font_settings_model.h"
 
 class TextPainter {
 public:

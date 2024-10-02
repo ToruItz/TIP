@@ -27,7 +27,7 @@
 #include <QMessageBox>
 
 // Services
-#include <services/theme-loader/theme_loader.h>
+#include <theme_loader.h>
 
 // Interfaces
 #include <interfaces/database-settings/database_settings.h>

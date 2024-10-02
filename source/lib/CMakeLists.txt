@@ -1,0 +1,6 @@
+add_subdirectory(database)
+add_subdirectory(image-printer)
+add_subdirectory(logger)
+add_subdirectory(settings)
+add_subdirectory(text-painter)
+add_subdirectory(theme-loader)
